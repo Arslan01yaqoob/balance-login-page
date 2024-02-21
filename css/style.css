@@ -1,0 +1,244 @@
+:root {
+    --white: #ffffff;
+    --primary: #065591;
+    --primarylight: #2D87CB;
+    --offwhite: #ebebebcb;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar css */
+.mohameen-navbar {
+    background-color: var(--primary) !important;
+}
+
+.mohameen-navbar .navbar-brand {
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.mohameen-navbar .nav-link {
+
+    color: var(--white) !important;
+}
+
+.mohameen-navbar .nav-item {
+    padding: 0.5rem 1rem;
+
+}
+
+.mohameen-navbar .nav-link.active {
+    border-bottom: 2px solid var(--white);
+    display: inline-block;
+    font-weight: 500;
+}
+.navbarbtn {
+    border: 1px solid white;
+    border-radius: 0;
+    background: transparent;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+
+    }
+
+    .footernavbar .nav-link {
+        padding: 0.5rem 1rem !important;
+    }
+}
+
+
+/* navbar css end */
+
+/* input page css start */
+
+.input-page {
+    height: 60rem;
+    width: 100%;
+}
+
+.input-page .container {
+    height: 100%;
+    /* background-color: #2D87CB; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-page .container .row {
+    background-color: var(--white);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    width: 85vw;
+    border-radius: 10px;
+}
+
+.input-page-img {
+    width: 100%;
+}
+
+.userdata {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userdata .inputs h5 {
+    margin-left: 9px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.userdata .inputs .a-input {
+
+    background-color: var(--offwhite);
+    height: 3rem;
+    margin: 10px;
+    border: none;
+    width: 42.5%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.userdata .inputs .b-input {
+    background-color: var(--offwhite);
+    height: 3rem;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    width: 90%;
+}
+
+#phone {
+    background-color: transparent;
+    height: 3rem;
+    border: none;
+    outline: none;
+    width: 28vw;
+}
+
+.iti__flag-container {
+    margin-left: 9px;
+    /* Adjust this value as needed */
+}
+
+.userdata .inputs .a-input::placeholder,
+.userdata .inputs .b-input::placeholder,
+.userdata .inputs .c-input::placeholder {
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.userdata .Continue-btn {
+    background-color: var(--primary);
+    margin-top: auto;
+    color: var(--white);
+    border: none;
+    width: 90%;
+
+    height: 3rem;
+    border-radius: 4px;
+    width: 90%;
+    font-weight: 600;
+    margin-left: 9px;
+    transition: transform 0.3s ease;
+}
+
+.userdata .Continue-btn:hover {
+    background-color: var(--offwhite);
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    transform: scale(1.1);
+}
+@media (max-width:992px) {
+    
+    .input-page {
+        height: 70rem;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:490px) {
+
+    .input-page {
+        height: 60rem;
+        width: 100%;
+    }
+
+    .userdata .inputs .a-input {
+        height: 2.5rem;
+        margin: 10px;
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .userdata .inputs .b-input {
+        background-color: var(--offwhite);
+        height: 2.5rem;
+        border: 1px solid var(--offwhite);
+        border-radius: 4px;
+        border: none;
+        margin: 10px;
+        width: 90%;
+    }
+    #phone {
+        width: 40vw;
+    }
+
+
+}
+/* input page css end */
+
+
+
+
+/* footer css start */
+
+
+.footer {
+    background-color: var(--primary);
+    padding: 3rem 0;
+}
+
+.footerlogo p {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footerdescription {
+    color: var(--white);
+    text-align: justify;
+    margin-bottom: 4rem;
+}
+
+.storelinksdesc {
+    margin-top: 1rem;
+    color: var(--white);
+    text-align: right;
+}
+
+.footerline {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--white);
+    margin-top: 1.5rem;
+}
+
+.footerline div {
+    height: 2px;
+
+}
+
+.footernavbar .nav-link {
+    color: var(--white) !important;
+}
+
+/* footer css end   */
